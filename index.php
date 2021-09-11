@@ -47,5 +47,9 @@
 
   ?>
 </body>
+<footer>
+  <p><a href="https://github.com/Pilchness/techtask" target="__blank">Github Repo</a></p>
+</footer>
+
 
 </html>
