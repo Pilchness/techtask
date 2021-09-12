@@ -30,7 +30,9 @@ class AmendTable {
     let returnText = ``;
     for (let [index, element] of headings.entries()) {
       console.log(element);
-      returnText += `<div class="col col-1" data-label="${headings[index]}">${this.data[headings[index]]}</div>`;
+      returnText += `<div class="col col-${index + 2}" data-label="${headings[index]}">${
+        this.data[headings[index]]
+      }</div>`;
     }
     console.log(returnText);
     return returnText;

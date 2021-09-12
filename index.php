@@ -29,7 +29,7 @@
       <script type="application/javascript" src="libs/js/script.js"></script>
 </body>
 <footer>
-  <p><a href="https://github.com/Pilchness/techtask" target="__blank">Github Repo</a></p>
+  <p><a href="https://github.com/Pilchness/techtask" target="__blank">Open GitHub repo in a new tab</a></p>
 </footer>
 
 
