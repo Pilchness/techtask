@@ -1,11 +1,12 @@
 body {
   font-family: 'lato', sans-serif;
   font-size: small;
+  background-color: black;
 }
 
 footer {
-  margin-left: 100px;
   margin-top: 20px;
+  text-align: center;
 }
 .container {
   max-width: 1000px;
@@ -15,13 +16,24 @@ footer {
   padding-right: 10px;
 }
 h2 {
-  font-size: 14px;
+  font-size: 18px;
   margin: 20px 0;
   text-align: center;
+  color: white;
 }
 h2 small {
   font-size: 0.5em;
 }
+
+ul {
+  padding: 0;
+}
+
+a {
+  color: white;
+  font-size: 18px;
+}
+
 .responsive-table li {
   border-radius: 3px;
   padding: 5px 30px;
