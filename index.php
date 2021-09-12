@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <h2>Tech Task Table</h2>
-    <ul class="responsive-table">
+    <ul id="data-table" class="responsive-table">
       <li class="table-header">
         <div class="col col-1">Invoice Id</div>
         <div class="col col-2">Customer Id</div>
@@ -22,15 +22,6 @@
         <div class="col col-5">Product Id</div>
         <div class="col col-6">Product Description</div>
         <div class="col col-7">Timestamp</div>
-      </li>
-      <li class="table-row">
-        <div class="col col-1" data-label="Job Id">2556</div>
-        <div class="col col-2" data-label="Customer Name">2</div>
-        <div class="col col-3" data-label="Amount">Bobby Bristow</div>
-        <div class="col col-4" data-label="Payment Status">bobby@darts.com</div>
-        <div class="col col-5" data-label="Customer Name">CD12</div>
-        <div class="col col-6" data-label="Amount">Something for the weekend. Hopefully something fun and interesting.</div>
-        <div class="col col-7" data-label="Payment Status">06:09:70</div>
       </li>
     </ul>
   </div>
