@@ -36,9 +36,13 @@ class AmendTable {
     return returnText;
   }
 
-  addRow() {
+  addRow(rowNumber) {
     console.log('adding row');
-    $('#data-table').append(`<li class="table-row">${this.rowElements(this.headings)}</li>`);
+    $('#data-table').append(
+      `<li class="table-row"><div class="col col-1" data-label="id">${rowNumber}</div>${this.rowElements(
+        this.headings
+      )}</li>`
+    );
   }
 
   test() {
@@ -56,7 +60,7 @@ readData()
     for (let i = 0; i < data.length; i++) {
       const updateTable = new AmendTable(data[i]);
       updateTable.test();
-      updateTable.addRow();
+      updateTable.addRow(i + 1);
     }
   })
   .catch((err) => {
